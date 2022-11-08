@@ -8,7 +8,11 @@
     "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"],
-    }
+      "@components/*": ["src/components/*/index", "src/components/*"],
+      "@interfaces/*": ["src/interfaces/*/index", "src/interfaces/*"],
+      "@navigation/*": ["src/navigation/*/index", "src/navigation/*"],
+      "@screens/*": ["src/screens/*/index", "src/screens/*"],
+      "@enums/*": ["src/enums/*/index", "src/enums/*"],
+    },
   }
 }

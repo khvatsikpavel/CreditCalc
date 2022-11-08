@@ -1,6 +1,6 @@
 import React, { FC } from 'react';
 import { StyleSheet, Text } from 'react-native';
-import Container from 'components/Container';
+import Container from '@components/Container';
 
 const Home: FC = () => {
   return (

@@ -1,8 +1,8 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
-import HomeScreen from 'screens/Home';
-import { ETabsName } from 'enums/navigation.enum';
+import HomeScreen from '@screens/Home';
+import { ETabsName } from '@enums/navigation.enum';
 
 const Tab = createBottomTabNavigator();
 
